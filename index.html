@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ABC GYM - Your premier fitness destination. Transform your life with our state-of-the-art facilities, expert trainers, and personalized fitness programs.">
+    <meta name="keywords" content="gym, fitness center, personal training, workout, health club, ABC GYM, exercise, weight loss, muscle gain">
+    <meta name="author" content="ABC GYM">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="ABC GYM - Transform Your Life">
+    <meta property="og:description" content="Your premier fitness destination with state-of-the-art facilities and expert trainers.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">
+    <meta property="og:url" content="https://abcgym.com">
+    <title>ABC GYM | Transform Your Life with Premier Fitness Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/gym-logo.jpeg" alt="ABC GYM Logo">
+            <span class="gym-name">ABC GYM</span>
+        </a>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/results.html">Results</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Life</h1>
+            <p>Join ABC GYM and start your fitness journey today</p>
+            <button class="cta-button">Start Free Trial</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Why Choose ABC GYM?</h2>
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art facilities and equipment</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-user-friends"></i>
+                <h3>Expert Trainers</h3>
+                <p>Professional guidance for your fitness goals</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>24/7 Access</h3>
+                <p>Work out anytime, day or night</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results">
+        <h2>Success Stories</h2>
+        <div class="results-grid">
+            <div class="result-card">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Before After">
+                <div class="result-info">
+                    <h3>John Doe</h3>
+                    <p>Lost 30kg in 6 months</p>
+                </div>
+            </div>
+            <div class="result-card">
+                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Before After">
+                <div class="result-info">
+                    <h3>Sarah Smith</h3>
+                    <p>Gained 10kg muscle in 8 months</p>
+                </div>
+            </div>
+            <div class="result-card">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Before After">
+                <div class="result-info">
+                    <h3>Mike Johnson</h3>
+                    <p>Lost 15kg in 12 months</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Members Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"ABC GYM transformed my life! The trainers are amazing and the community is supportive."</p>
+                    <h4>Mike Johnson</h4>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Best gym I've ever been to. The facilities are top-notch and the staff is friendly."</p>
+                    <h4>Sarah Williams</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Start Your Fitness Journey</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Phone Number</label>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ABC GYM</h3>
+                <p>Transform your life with us</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@abcgym.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ABC GYM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
